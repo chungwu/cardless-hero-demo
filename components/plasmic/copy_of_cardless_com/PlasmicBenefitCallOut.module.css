@@ -1,0 +1,95 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 2px rgba(228, 228, 228, 0.4);
+  filter: drop-shadow(0px 1px 2px rgba(197, 197, 197, 0.25));
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+  flex-basis: 31%;
+  flex-shrink: 1;
+  border-radius: 16px;
+  padding: 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 24px;
+}
+@media (max-width: 520px) {
+  .root {
+    flex-basis: 100%;
+  }
+}
+.svg___39Rq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.copy {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.copy > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.copy > :global(.__wab_flex-container) > *,
+.copy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.copy > :global(.__wab_flex-container) > picture > img,
+.copy > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 8px;
+}
+.freeBox {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.slotTargetTitle {
+  font-weight: 600;
+  font-family: Roobert;
+  font-size: 1.25rem /* plasmic-token: PY3Hc8Lr0BvSl */;
+  line-height: 1.75rem /* plasmic-token: 57rI8Gh0DG5fU */;
+  color: rgba(23, 23, 23, 1);
+}
+.slotTargetSubtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+  letter-spacing: 0px;
+}

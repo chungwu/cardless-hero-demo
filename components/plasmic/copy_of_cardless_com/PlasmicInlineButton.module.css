@@ -1,0 +1,40 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+  border-radius: 41px;
+}
+.slotTargetPrimaryButton2 {
+  font-weight: 500;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  font-family: "Inter", sans-serif;
+  user-select: text;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.root:hover .slotTargetPrimaryButton2 {
+  color: #e10000;
+}
+.slotTargetChildren {
+  color: #e10000;
+}
+.root:hover .slotTargetChildren {
+  color: #1f1b1b;
+}
+.svg__ghsSk {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+  flex-shrink: 0;
+}

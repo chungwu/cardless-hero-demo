@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 285px;
+  height: auto;
+  box-shadow: 0px 4px 8px 6px #58585826;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 8px;
+}
+@media (max-width: 414px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
+.freeBox__nnKzd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetCardTitle {
+  font-weight: 600;
+  font-family: Roobert;
+  font-size: 1.25rem /* plasmic-token: PY3Hc8Lr0BvSl */;
+  line-height: 1.75rem /* plasmic-token: 57rI8Gh0DG5fU */;
+  color: #181818 /* plasmic-token: HiHmSIXx2eHbj */;
+}
+.slotTargetCardSubtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem /* plasmic-token: iVhB21bC_W0v_ */;
+  line-height: 1.25rem /* plasmic-token: -JtYPrvX_rkFG */;
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+}
+.freeBox__cFbCm {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetCardContent {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+  white-space: pre-wrap;
+}
+.text__vPbQn {
+  width: 100%;
+  white-space: pre-wrap;
+  min-width: 0;
+}

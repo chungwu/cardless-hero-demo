@@ -1,0 +1,43 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.freeBox {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+@media (max-width: 520px) {
+  .freeBox {
+    display: block;
+    align-self: stretch;
+    position: relative;
+  }
+}
+.slotTargetChildren {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  color: #f4f4f4 /* plasmic-token: TCoxx_3nbg8jo */;
+  letter-spacing: 0px;
+}
+@media (max-width: 520px) {
+  .slotTargetChildren {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+    line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+    color: #f4f4f4 /* plasmic-token: TCoxx_3nbg8jo */;
+    letter-spacing: 0px;
+  }
+}
+.root:hover .slotTargetChildren {
+  color: #c8c8c8 /* plasmic-token: KF9Ic6J5-AB2p */;
+}

@@ -1,0 +1,88 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  max-width: 232px;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 0;
+  border-radius: 24px;
+  padding: 12px 4px;
+}
+.text__pSxdN {
+  font-family: Roobert;
+  font-weight: 600;
+  font-size: 1rem /* plasmic-token: Y0fBsrBnjKGCH */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+  z-index: 2;
+  align-self: flex-end;
+  min-width: 0;
+  min-height: 0;
+}
+.text__office__pSxdNPcVt {
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+}
+.root:active .text__pSxdN {
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+}
+.selectBg {
+  display: block;
+  position: absolute;
+  width: 112px;
+  height: 40px;
+  max-width: 100%;
+  left: 4px;
+  top: 4px;
+  background: #ffffff;
+  backdrop-filter: none;
+  filter: drop-shadow(0px 2px 8px #9d9d9d26) drop-shadow(0px 2px 4px #93939340);
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  flex-shrink: 0;
+  border-radius: 24px;
+  padding: 0px;
+}
+.selectBg__office {
+  left: auto;
+  right: 4px;
+  filter: drop-shadow(0px 2px 8px #9d9d9d26) drop-shadow(0px 2px 8px #93939340);
+}
+.root:active .selectBg {
+  left: auto;
+  right: 4px;
+}
+.text___0DTh7 {
+  font-family: Roobert;
+  font-weight: 600;
+  font-size: 1rem /* plasmic-token: Y0fBsrBnjKGCH */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+  z-index: 2;
+  min-width: 0;
+  min-height: 0;
+}
+.text__office___0DTh7PcVt {
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+}
+.root:active .text___0DTh7 {
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+}

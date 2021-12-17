@@ -1,0 +1,235 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox___7IrJi {
+  display: flex;
+  flex-direction: column;
+  height: 152px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 800px) {
+  .freeBox___7IrJi {
+    width: auto;
+    align-self: flex-start;
+  }
+}
+.freeBox___3FlHf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  z-index: 0;
+  align-self: flex-start;
+  padding: 0px;
+}
+.arrowButton__utNtA:global(.__wab_instance) {
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  z-index: 2;
+  flex-shrink: 0;
+  display: flex;
+}
+@media (max-width: 800px) {
+  .arrowButton__utNtA:global(.__wab_instance) {
+    flex-shrink: 0;
+    display: none;
+  }
+}
+.arrowButton__fade__utNtAlpnn4:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+  display: none;
+}
+.arrowButton__uf5T0:global(.__wab_instance) {
+  position: absolute;
+  left: auto;
+  top: 56px;
+  z-index: 2;
+  right: 0px;
+  flex-shrink: 0;
+  display: flex;
+}
+@media (max-width: 800px) {
+  .arrowButton__uf5T0:global(.__wab_instance) {
+    flex-shrink: 0;
+    display: none;
+  }
+}
+.arrowButton__fade__uf5T0Lpnn4:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+  bottom: auto;
+  right: 0px;
+  flex-shrink: 0;
+  display: none;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 152px;
+  max-width: 1116px;
+  overflow: hidden;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.list > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.list > :global(.__wab_flex-container) > *,
+.list > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.list > :global(.__wab_flex-container) > picture > img,
+.list > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 24px;
+}
+@media (max-width: 800px) {
+  .list {
+    width: auto;
+    align-self: flex-start;
+    overflow: visible;
+  }
+}
+@media (max-width: 800px) {
+  .list > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.manUtd:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 800px) {
+  .manUtd:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.manUtd__fade:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.brandLogo__jOcZf:global(.__wab_instance) {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.cavs:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 800px) {
+  .cavs:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.brandLogo__r87Mh:global(.__wab_instance) {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.celtics:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 800px) {
+  .celtics:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.brandLogo__gFibg:global(.__wab_instance) {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.marlins:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 800px) {
+  .marlins:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.brandLogo___9VpWp:global(.__wab_instance) {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.fadeGradient {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #fffffff2 8%,
+    #ffffff00 49%,
+    #fffffff2 93%,
+    #fffffff2 94%,
+    #ffffff 100%
+  );
+  left: 0px;
+  top: 0px;
+  transition-property: all;
+  transition-duration: 1s;
+  pointer-events: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+@media (max-width: 800px) {
+  .fadeGradient {
+    background: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #fffffff2 1%,
+      #ffffff00 49%,
+      #fffffff2 98%,
+      #fffffff2 99%,
+      #ffffff 100%
+    );
+    width: 100vw;
+    display: flex;
+  }
+}
+.fadeGradient__fade {
+  display: none;
+}

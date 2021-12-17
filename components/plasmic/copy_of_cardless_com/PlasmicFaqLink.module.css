@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  border-radius: 12px;
+  padding: 12px 12px 12px 24px;
+}
+.root__selected_closed {
+  background: #fafafa;
+}
+.root__selected_open {
+  background: #fafafa;
+}
+.root:hover {
+  background: #fafafa;
+}
+.freeBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+  min-width: 0;
+}
+.slotTargetChildren {
+  font-family: Roobert;
+  font-weight: 600;
+  font-size: 1rem /* plasmic-token: Y0fBsrBnjKGCH */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  user-select: none;
+  color: #181818 /* plasmic-token: HiHmSIXx2eHbj */;
+}
+.slotTargetChildren > *,
+.slotTargetChildren > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > picture > img,
+.slotTargetChildren > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  width: 100%;
+  min-width: 0;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(90deg);
+  color: #181818 /* plasmic-token: HiHmSIXx2eHbj */;
+  transform-style: preserve-3d;
+  flex-shrink: 0;
+  display: none;
+}
+.svg * {
+  transform-style: preserve-3d;
+}
+.svg__selected_closed {
+  transform-style: preserve-3d;
+  display: block;
+}
+.svg__selected_closed * {
+  transform-style: preserve-3d;
+}
+.svg__selected_open {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+  display: block;
+}

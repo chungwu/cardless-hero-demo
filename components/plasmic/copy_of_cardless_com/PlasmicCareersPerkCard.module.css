@@ -1,0 +1,99 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  min-width: 360px;
+  border-radius: 16px;
+  padding: 24px;
+  border: 2px solid #f4f4f4 /* plasmic-token: TCoxx_3nbg8jo */;
+}
+.freeBox___2HsT5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-bottom: 12px;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+}
+.freeBox__x5JaO {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+  padding: 0px;
+}
+.freeBox___3Pw5 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f4f4f4;
+  min-width: 0;
+  border-radius: 8px;
+  padding: 8px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  color: #f00303 /* plasmic-token: GT1lf3-7YrtYB */;
+  flex-shrink: 0;
+}
+.freeBox__t8ArO {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.text__xfz7A {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.text__careersPage_lunch__xfz7Ai8Mz2 {
+  height: auto;
+}
+.text__rmM2S {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: #8a8a8a /* plasmic-token: i_nWIql8xUFNS */;
+  min-width: 0;
+}
+.text__careersPage_transit__rmM2SPt5WQ {
+  height: auto;
+}
+.text__careersPage_health__rmM2S5Mg0 {
+  height: auto;
+}

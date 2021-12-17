@@ -1,0 +1,71 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 204px;
+  height: 152px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cardSelector {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 16px;
+  padding: 24px;
+}
+.cardSelector > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.cardSelector > :global(.__wab_flex-container) > *,
+.cardSelector > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardSelector > :global(.__wab_flex-container) > picture > img,
+.cardSelector
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardSelector__active {
+  box-shadow: 2px 4px 4px 2px #6b6b6b1a;
+  border: 1px solid #e5e5e5 /* plasmic-token: uXYZKOb1mG7Lb */;
+}
+.root:hover .cardSelector {
+  background: #fafafa;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.root:hover .cardSelector > :global(.__wab_flex-container) {
+  min-width: 0;
+  min-height: 0;
+}
+.brandLogo__nfGU:global(.__wab_instance) {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.slotTargetName {
+  font-family: Roobert;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(23, 23, 23, 1);
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0px;
+}

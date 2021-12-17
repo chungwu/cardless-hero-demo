@@ -1,0 +1,205 @@
+.root {
+  background: #fafafa;
+  width: 228px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+  padding: 16px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media (max-width: 520px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 520px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: row;
+    align-items: center;
+    min-width: 0;
+    margin-left: calc(0px - 1.5rem);
+    width: calc(100% + 1.5rem);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (max-width: 520px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 1.5rem;
+    margin-top: 0px;
+  }
+}
+.root__brandColors_cavs {
+  background: #ffffff0d;
+}
+.root__brandColors_marlins {
+  background: #027ab708;
+}
+.root__brandColors_manu {
+  background: #f0030308;
+}
+.root__brandColors_celtics {
+  background: #003a1508;
+}
+.freeBox__zyFw {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__qyaZw {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox__qyaZw > :global(.__wab_flex-container) {
+  flex-direction: row;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__qyaZw > :global(.__wab_flex-container) > *,
+.freeBox__qyaZw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__qyaZw > :global(.__wab_flex-container) > picture > img,
+.freeBox__qyaZw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.freeBox__doublePoints__qyaZWj2VJ > :global(.__wab_flex-container) {
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.freeBox__doublePoints__qyaZWj2VJ > :global(.__wab_flex-container) > *,
+.freeBox__doublePoints__qyaZWj2VJ
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.freeBox__doublePoints__qyaZWj2VJ
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.freeBox__doublePoints__qyaZWj2VJ
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+  margin-top: 0px;
+}
+.slotTargetTitle2 {
+  font-family: Roobert;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgba(214, 17, 18, 1);
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+.slotTargetTitle2__brandColors_cavs {
+  color: #f7c41c /* plasmic-token: iY-hzifVZVQ-3 */;
+}
+.slotTargetTitle2__brandColors_marlins {
+  color: #027ab7 /* plasmic-token: 959x4Exrx8yjR */;
+}
+.slotTargetTitle2__brandColors_manu {
+  color: #d71213 /* plasmic-token: oxbcdNxsMFAwi */;
+}
+.slotTargetTitle2__brandColors_celtics {
+  color: #af8638 /* plasmic-token: o1WPDSq39ZEYs */;
+}
+.slotTargetTitle {
+  font-family: Roobert;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgba(214, 17, 18, 1);
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+.slotTargetTitle__brandColors_cavs {
+  color: #f7c41c /* plasmic-token: iY-hzifVZVQ-3 */;
+}
+.slotTargetTitle__brandColors_marlins {
+  color: #027ab7 /* plasmic-token: 959x4Exrx8yjR */;
+}
+.slotTargetTitle__brandColors_manu {
+  color: #d71213 /* plasmic-token: oxbcdNxsMFAwi */;
+}
+.slotTargetTitle__brandColors_celtics {
+  color: #af8638 /* plasmic-token: o1WPDSq39ZEYs */;
+}
+.slotTargetTitle__doublePoints {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #d61112;
+}
+.slotTargetTitle__doublePoints > .__wab_text,
+.slotTargetTitle__doublePoints > .__wab_slot-string-wrapper,
+.slotTargetTitle__doublePoints > .__wab_slot > .__wab_text,
+.slotTargetTitle__doublePoints > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetTitle__doublePoints > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetTitle__doublePoints
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper,
+.slotTargetTitle__doublePoints
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_text,
+.slotTargetTitle__doublePoints
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-decoration-line: line-through;
+}
+.freeBox__dYj25 {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+@media (max-width: 520px) {
+  .freeBox__dYj25 {
+    align-items: center;
+  }
+}
+.slotTargetBody {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem /* plasmic-token: 0BevPDDGAEQe_ */;
+  line-height: 1.5rem /* plasmic-token: QKQMM9fdGzQQ_ */;
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+  letter-spacing: 0px;
+}

@@ -1,0 +1,30 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+@media (max-width: 520px) {
+  .svg {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+}
+.svg__monochromatic {
+  filter: blur(0px) blur(0px) blur(0px) grayscale(100%);
+  color: #53535333;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  opacity: 0.6;
+}

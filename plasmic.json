@@ -1,0 +1,3131 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+      "projectApiToken": "pkfqwUzG27Ft59mr4cFAbrxZFHwIiIONGpcvXfIw0cZ9Y27StMOH1PinU1YVPgIcVOQpO575j7s5t1UzA",
+      "projectName": "Copy of cardless.com",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_cardless_com/plasmic_copy_of_cardless_com.module.css",
+      "components": [
+        {
+          "id": "qxnD-9-C2Ck",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "HqyOQZAs797T",
+          "name": "Careers",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareers.tsx",
+          "importSpec": {
+            "modulePath": "../pages/careers.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareers.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "e5FE6Mc6mLjK",
+          "name": "CareersTeamPosting",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersTeamPosting.tsx",
+          "importSpec": {
+            "modulePath": "CareersTeamPosting.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersTeamPosting.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "akLG14lb0Udy",
+          "name": "CareersTeamSection",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersTeamSection.tsx",
+          "importSpec": {
+            "modulePath": "CareersTeamSection.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersTeamSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bDZ9MQVucPJu",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFaq.tsx",
+          "importSpec": {
+            "modulePath": "../pages/faq.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "dmUvLjuuRu2k",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicNavBar.tsx",
+          "importSpec": {
+            "modulePath": "NavBar.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "exoHRHBB2Jd8",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "s0OJmmocqt8k",
+          "name": "NavButton",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicNavButton.tsx",
+          "importSpec": {
+            "modulePath": "NavButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicNavButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2kml7f9QHlfS",
+          "name": "QuestionEntry",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicQuestionEntry.tsx",
+          "importSpec": {
+            "modulePath": "QuestionEntry.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicQuestionEntry.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Bkjz8p8FKwE0",
+          "name": "FaqComplete",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqComplete.tsx",
+          "importSpec": {
+            "modulePath": "FaqComplete.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqComplete.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4TDmEKfWsWRr",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PkWTYjvvSSlc",
+          "name": "HeroAvatar",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroAvatar.tsx",
+          "importSpec": {
+            "modulePath": "HeroAvatar.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "soDt8HKxeV97",
+          "name": "ReferAFriend",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicReferAFriend.tsx",
+          "importSpec": {
+            "modulePath": "../pages/refer-a-friend.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicReferAFriend.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UL0bObsgqj2z",
+          "name": "CareersInfoCard",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersInfoCard.tsx",
+          "importSpec": {
+            "modulePath": "CareersInfoCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersInfoCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xZQr1nj5T1h1",
+          "name": "OverlayModal",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicOverlayModal.tsx",
+          "importSpec": {
+            "modulePath": "OverlayModal.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicOverlayModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UNUt5VXPoZrd",
+          "name": "Cards",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCards.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cards/[id].tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCards.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4aMvp_Ghnv6n",
+          "name": "PriceCallout",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicPriceCallout.tsx",
+          "importSpec": {
+            "modulePath": "PriceCallout.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicPriceCallout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "O5sEW05m_bGM",
+          "name": "BenefitRow",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicBenefitRow.tsx",
+          "importSpec": {
+            "modulePath": "BenefitRow.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicBenefitRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ufZvdJ_v0tDv",
+          "name": "AppStoreCta",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicAppStoreCta.tsx",
+          "importSpec": {
+            "modulePath": "AppStoreCta.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicAppStoreCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "krLHVnGMVKE8",
+          "name": "PlayStoreCta",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicPlayStoreCta.tsx",
+          "importSpec": {
+            "modulePath": "PlayStoreCta.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicPlayStoreCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "x7GIpgt-pnBq",
+          "name": "CareersPerkCard",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersPerkCard.tsx",
+          "importSpec": {
+            "modulePath": "CareersPerkCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersPerkCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "E_Hg5r5Konxr",
+          "name": "BenefitCallOut",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicBenefitCallOut.tsx",
+          "importSpec": {
+            "modulePath": "BenefitCallOut.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicBenefitCallOut.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "T8OSoIuEHjkb",
+          "name": "ItemCarousel",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicItemCarousel.tsx",
+          "importSpec": {
+            "modulePath": "ItemCarousel.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicItemCarousel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zUXky6xuKkg7",
+          "name": "ItemCarouselItem",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicItemCarouselItem.tsx",
+          "importSpec": {
+            "modulePath": "ItemCarouselItem.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicItemCarouselItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LVNvmxA1SLWB",
+          "name": "ArrowButton",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicArrowButton.tsx",
+          "importSpec": {
+            "modulePath": "ArrowButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicArrowButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3Kdn_D8OZEnd",
+          "name": "EarningCallout",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicEarningCallout.tsx",
+          "importSpec": {
+            "modulePath": "EarningCallout.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicEarningCallout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "u4knHUDTWZ35",
+          "name": "BigCallOut",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicBigCallOut.tsx",
+          "importSpec": {
+            "modulePath": "BigCallOut.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicBigCallOut.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "asankEkracjf",
+          "name": "HeroImage",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImage.tsx",
+          "importSpec": {
+            "modulePath": "HeroImage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4i10JAkWDCTW",
+          "name": "PaddingWrapper",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicPaddingWrapper.tsx",
+          "importSpec": {
+            "modulePath": "PaddingWrapper.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicPaddingWrapper.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gL5YkDbpKAXj",
+          "name": "HeroOverlay",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroOverlay.tsx",
+          "importSpec": {
+            "modulePath": "HeroOverlay.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroOverlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0PjlvTKr4NOS",
+          "name": "CardSelector",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCardSelector.tsx",
+          "importSpec": {
+            "modulePath": "CardSelector.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCardSelector.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "aQKGnrPZ14KO",
+          "name": "CardList",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCardList.tsx",
+          "importSpec": {
+            "modulePath": "CardList.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCardList.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "EOORFxZkoS_u",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicTestimonial.tsx",
+          "importSpec": {
+            "modulePath": "Testimonial.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pV7UoE88AERx",
+          "name": "ForBrands",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicForBrands.tsx",
+          "importSpec": {
+            "modulePath": "../pages/for-brands.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicForBrands.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Ih8CO7qIPWwS",
+          "name": "BrandLogo",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicBrandLogo.tsx",
+          "importSpec": {
+            "modulePath": "BrandLogo.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicBrandLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uuQnBH6TBKAT",
+          "name": "CardList2",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCardList2.tsx",
+          "importSpec": {
+            "modulePath": "CardList2.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCardList2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MMV2NaMzNI6o",
+          "name": "HeroImageCarouseltem",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImageCarouseltem.tsx",
+          "importSpec": {
+            "modulePath": "HeroImageCarouseltem.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImageCarouseltem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dhdHGgK5WGkB",
+          "name": "HeroImageCarousel",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImageCarousel.tsx",
+          "importSpec": {
+            "modulePath": "HeroImageCarousel.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHeroImageCarousel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "L7fXatbRFIgn",
+          "name": "MobileAppMock",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicMobileAppMock.tsx",
+          "importSpec": {
+            "modulePath": "MobileAppMock.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicMobileAppMock.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tj1OgYPQx9N9",
+          "name": "FauxUi",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUi.tsx",
+          "importSpec": {
+            "modulePath": "FauxUi.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUi.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "c5IZhXwKvBNN",
+          "name": "FauxUiScroll",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUiScroll.tsx",
+          "importSpec": {
+            "modulePath": "FauxUiScroll.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUiScroll.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2N7y0bNNIt8J",
+          "name": "FauxUiTextwrapper",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUiTextwrapper.tsx",
+          "importSpec": {
+            "modulePath": "FauxUiTextwrapper.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFauxUiTextwrapper.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i5UR_SxBMe0v",
+          "name": "ImageLeft",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicImageLeft.tsx",
+          "importSpec": {
+            "modulePath": "ImageLeft.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicImageLeft.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hl6zM9cWDJc0",
+          "name": "ImageRight",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicImageRight.tsx",
+          "importSpec": {
+            "modulePath": "ImageRight.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicImageRight.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oJjF7smFRwcN",
+          "name": "ImageCard",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicImageCard.tsx",
+          "importSpec": {
+            "modulePath": "ImageCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicImageCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pXF26myJL81n",
+          "name": "ImageLeftScroll",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicImageLeftScroll.tsx",
+          "importSpec": {
+            "modulePath": "ImageLeftScroll.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicImageLeftScroll.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NqmB3dxSPhdw",
+          "name": "InlineButton",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicInlineButton.tsx",
+          "importSpec": {
+            "modulePath": "InlineButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicInlineButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "aklKETeXRlEq",
+          "name": "SegmentControl",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicSegmentControl.tsx",
+          "importSpec": {
+            "modulePath": "SegmentControl.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicSegmentControl.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "x0xZtXa4ebGM",
+          "name": "CareersBenefits",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersBenefits.tsx",
+          "importSpec": {
+            "modulePath": "CareersBenefits.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCareersBenefits.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LiTSzl8qMi-t",
+          "name": "FooterLink",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFooterLink.tsx",
+          "importSpec": {
+            "modulePath": "FooterLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFooterLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QzkyDlquy7jc",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "sGilO7-Qjn6_",
+          "name": "BrandsTable",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicBrandsTable.tsx",
+          "importSpec": {
+            "modulePath": "BrandsTable.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicBrandsTable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dzOYVotBa55E",
+          "name": "HomePageRightCardForYouContent",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicHomePageRightCardForYouContent.tsx",
+          "importSpec": {
+            "modulePath": "HomePageRightCardForYouContent.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicHomePageRightCardForYouContent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uRVb2au7FrOu",
+          "name": "CardsMenuItem",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCardsMenuItem.tsx",
+          "importSpec": {
+            "modulePath": "CardsMenuItem.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCardsMenuItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G3VsH9kXpX86",
+          "name": "CardMenu",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicCardMenu.tsx",
+          "importSpec": {
+            "modulePath": "CardMenu.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicCardMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "065U9QSynAe8",
+          "name": "ProductHero",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicProductHero.tsx",
+          "importSpec": {
+            "modulePath": "ProductHero.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicProductHero.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JiFB2-JKD_Yz",
+          "name": "OfferTerms",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicOfferTerms.tsx",
+          "importSpec": {
+            "modulePath": "OfferTerms.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicOfferTerms.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "74ZrtlAwnJgB",
+          "name": "PageNotFound",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicPageNotFound.tsx",
+          "importSpec": {
+            "modulePath": "../pages/page-not-found.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicPageNotFound.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "vA0fonNBN-GL",
+          "name": "FaqNavigation",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqNavigation.tsx",
+          "importSpec": {
+            "modulePath": "FaqNavigation.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqNavigation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "EHxtyqyRMHbY",
+          "name": "FaqLink",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqLink.tsx",
+          "importSpec": {
+            "modulePath": "FaqLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicFaqLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FHr7s50SrNP8",
+          "name": "TestimonialsScroller",
+          "type": "managed",
+          "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+          "renderModuleFilePath": "plasmic/copy_of_cardless_com/PlasmicTestimonialsScroller.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialsScroller.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cardless_com/PlasmicTestimonialsScroller.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "xfD2OPoVZLchG",
+          "name": "Layer1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer1.tsx"
+        },
+        {
+          "id": "u1OmMvoIgyw_8",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "KIFRaLwilYJNR",
+          "name": "Path16Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path16.tsx"
+        },
+        {
+          "id": "dhtP-I0FRrAlF",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "itme5X-KQq35O",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "FGY65H2-VQiZw",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "--jovDKZhPBRr",
+          "name": "Path14Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path14.tsx"
+        },
+        {
+          "id": "7k5nxDGyZYSLa",
+          "name": "Path162Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path162.tsx"
+        },
+        {
+          "id": "ImP_MLR_F83l4",
+          "name": "G18Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G18.tsx"
+        },
+        {
+          "id": "usEXzfWRlEqaA",
+          "name": "G22Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G22.tsx"
+        },
+        {
+          "id": "j8EEl5I4FxKYB",
+          "name": "G26Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G26.tsx"
+        },
+        {
+          "id": "VJDY4Pdk_KfzF",
+          "name": "G30Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G30.tsx"
+        },
+        {
+          "id": "xQ4k_fjqS_1fP",
+          "name": "G34Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G34.tsx"
+        },
+        {
+          "id": "VfuQYwlKQ1uvs",
+          "name": "G38Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G38.tsx"
+        },
+        {
+          "id": "XYqaQPyNjgRSi",
+          "name": "G42Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G42.tsx"
+        },
+        {
+          "id": "md_wgL7MGvrYG",
+          "name": "Path46Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path46.tsx"
+        },
+        {
+          "id": "cEmwCvAMx53Gt",
+          "name": "FacebookNegativeIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__FacebookNegative.tsx"
+        },
+        {
+          "id": "FOaL6HbCHCvvE",
+          "name": "TwitterNegativeIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TwitterNegative.tsx"
+        },
+        {
+          "id": "rePQFkfOwMOk5",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "lVtrwuoOsRsie",
+          "name": "Layer2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer2.tsx"
+        },
+        {
+          "id": "E7YdTcD7oFygJ",
+          "name": "ArrowRightIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRight.tsx"
+        },
+        {
+          "id": "G6TAXD3Tu3z00",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "tInOucJGA62Pu",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "6kS51S1DkQHnf",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "85qDDq45cvfz5",
+          "name": "CellDividerIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CellDivider.tsx"
+        },
+        {
+          "id": "xSphri8qmCmhs",
+          "name": "Layer3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer3.tsx"
+        },
+        {
+          "id": "mqO9t0e4xpGDz",
+          "name": "ArrowDownIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowDown.tsx"
+        },
+        {
+          "id": "0yDRGxa6QUnuo",
+          "name": "CellDivider2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CellDivider2.tsx"
+        },
+        {
+          "id": "9Q9VAS_0oWcl1",
+          "name": "ArrowUpIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowUp.tsx"
+        },
+        {
+          "id": "P6Q6zf2191kAT",
+          "name": "Cutlery5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Cutlery5.tsx"
+        },
+        {
+          "id": "lL-_sQ7LqZfMI",
+          "name": "CompassIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Compass.tsx"
+        },
+        {
+          "id": "VAsFC2gKRwCVz",
+          "name": "Sun1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Sun1.tsx"
+        },
+        {
+          "id": "ym90mEN_vW8VX",
+          "name": "DollarSignIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DollarSign.tsx"
+        },
+        {
+          "id": "aiwDM3K3OLBVp",
+          "name": "BatteryCharging21Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__BatteryCharging21.tsx"
+        },
+        {
+          "id": "DqSLlcmt6RIOG",
+          "name": "Heart2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Heart2.tsx"
+        },
+        {
+          "id": "9GHDUb3-zFBI-",
+          "name": "Users1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Users1.tsx"
+        },
+        {
+          "id": "WnNxzrp8hV_KR",
+          "name": "SvggIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Svgg.tsx"
+        },
+        {
+          "id": "qbDob9wv-Adm1",
+          "name": "Svgg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Svgg2.tsx"
+        },
+        {
+          "id": "2jKbhB66Vr5e-",
+          "name": "Svgg3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Svgg3.tsx"
+        },
+        {
+          "id": "C1FqJM1E8AvUa",
+          "name": "Path0Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path0.tsx"
+        },
+        {
+          "id": "fQhlSsbhWdK-G",
+          "name": "Path1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path1.tsx"
+        },
+        {
+          "id": "2UT6GiI54fsz4",
+          "name": "Path2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path2.tsx"
+        },
+        {
+          "id": "enhXsU0mMYayg",
+          "name": "Path3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path3.tsx"
+        },
+        {
+          "id": "oXnf-bcBOOqXg",
+          "name": "Path4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path4.tsx"
+        },
+        {
+          "id": "pplprPl3xhTla",
+          "name": "Path5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path5.tsx"
+        },
+        {
+          "id": "VjFoijWfGb5Ne",
+          "name": "Path6Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path6.tsx"
+        },
+        {
+          "id": "4dIm3Cr4Bs0vT",
+          "name": "Path7Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path7.tsx"
+        },
+        {
+          "id": "5F8btrpfhmHX7",
+          "name": "Path8Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path8.tsx"
+        },
+        {
+          "id": "bTV-643ERNmZt",
+          "name": "CellDivider3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CellDivider3.tsx"
+        },
+        {
+          "id": "r7kXXSm6L7oF6",
+          "name": "OptionalBottomCellDividerIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__OptionalBottomCellDivider.tsx"
+        },
+        {
+          "id": "J5iKQdfLB1RDP",
+          "name": "OptionalBottomCellDivider2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__OptionalBottomCellDivider2.tsx"
+        },
+        {
+          "id": "t5S1aOA0LUKAN",
+          "name": "CloseIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Close.tsx"
+        },
+        {
+          "id": "w8SjXtIrhNsJD",
+          "name": "Layer4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer4.tsx"
+        },
+        {
+          "id": "1kJXlFeCIavtm",
+          "name": "BubbleIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Bubble.tsx"
+        },
+        {
+          "id": "Os3dN4i-V_m07",
+          "name": "Gift2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Gift2.tsx"
+        },
+        {
+          "id": "luj33pE9BHt7_",
+          "name": "CoffeeIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Coffee.tsx"
+        },
+        {
+          "id": "Luogki9oRANaD",
+          "name": "Layer5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer5.tsx"
+        },
+        {
+          "id": "HUborQD_QjtmL",
+          "name": "DividerIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Divider.tsx"
+        },
+        {
+          "id": "2KRAovjnK_dPc",
+          "name": "ArrowLeftIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowLeft.tsx"
+        },
+        {
+          "id": "LrGNMpAfenOyZ",
+          "name": "ArrowRight2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRight2.tsx"
+        },
+        {
+          "id": "Qdx4WU8sKVwj_",
+          "name": "CreditCard1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CreditCard1.tsx"
+        },
+        {
+          "id": "XNAap_Ot8VYfr",
+          "name": "Cash2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Cash2.tsx"
+        },
+        {
+          "id": "IxnLfzryxhIw4",
+          "name": "Image9TracedIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Image9Traced.tsx"
+        },
+        {
+          "id": "JrVJs1crS4TYP",
+          "name": "Send2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Send2.tsx"
+        },
+        {
+          "id": "U8GsQmQSxp2Je",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "IE2uFuLBKw3t3",
+          "name": "Path163Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path163.tsx"
+        },
+        {
+          "id": "U9LQl3bguFW7c",
+          "name": "Group5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group5.tsx"
+        },
+        {
+          "id": "cqy4M-ZxruM-L",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group6.tsx"
+        },
+        {
+          "id": "PfwS-s4JbNmoR",
+          "name": "Group7Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group7.tsx"
+        },
+        {
+          "id": "Q_vTkMFtgce-F",
+          "name": "Path142Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path142.tsx"
+        },
+        {
+          "id": "eZUpJZ6iramWQ",
+          "name": "Path164Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path164.tsx"
+        },
+        {
+          "id": "mQdQ4NXTXR072",
+          "name": "G182Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G182.tsx"
+        },
+        {
+          "id": "JGd4P46ncWVO4",
+          "name": "G222Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G222.tsx"
+        },
+        {
+          "id": "1UpSjgCXrAz_M",
+          "name": "G262Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G262.tsx"
+        },
+        {
+          "id": "4GVW-I4Y40U19",
+          "name": "G302Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G302.tsx"
+        },
+        {
+          "id": "m2AXX5DAvWnV5",
+          "name": "G342Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G342.tsx"
+        },
+        {
+          "id": "4HE24dEbAz6kc",
+          "name": "G382Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G382.tsx"
+        },
+        {
+          "id": "tH2wmdYPgYOCp",
+          "name": "G422Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__G422.tsx"
+        },
+        {
+          "id": "AQHWDmLI-dt1D",
+          "name": "Path462Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Path462.tsx"
+        },
+        {
+          "id": "cqQZw8EVhU6dW",
+          "name": "GridIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Grid.tsx"
+        },
+        {
+          "id": "KZ_Jik5OyM7TA",
+          "name": "Ellipse33Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Ellipse33.tsx"
+        },
+        {
+          "id": "IP1Tpp6Cv2xcT",
+          "name": "MaskIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Mask.tsx"
+        },
+        {
+          "id": "lKbPpkp7R8Gkl",
+          "name": "IconsCardlessIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__IconsCardless.tsx"
+        },
+        {
+          "id": "wstO59pfXH3f4",
+          "name": "Grid2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Grid2.tsx"
+        },
+        {
+          "id": "CPBRoB6nUP4Ia",
+          "name": "Ellipse34Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Ellipse34.tsx"
+        },
+        {
+          "id": "MtfFFbGFE-WV_",
+          "name": "SilverIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Silver.tsx"
+        },
+        {
+          "id": "NIoaI8UM_F1ZK",
+          "name": "Rectangle11Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle11.tsx"
+        },
+        {
+          "id": "dfQHT15UnVQ8d",
+          "name": "Rectangle10Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle10.tsx"
+        },
+        {
+          "id": "gS6snRuVkIHZR",
+          "name": "SubtractIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Subtract.tsx"
+        },
+        {
+          "id": "2SXkfpQhpsp_O",
+          "name": "Group8Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group8.tsx"
+        },
+        {
+          "id": "j5_PSA5R98YcD",
+          "name": "Group12Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group12.tsx"
+        },
+        {
+          "id": "jjWhD7nHgOG9T",
+          "name": "Grid3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Grid3.tsx"
+        },
+        {
+          "id": "3DMO_7uQE-APv",
+          "name": "Ellipse35Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Ellipse35.tsx"
+        },
+        {
+          "id": "BxFsCY0rYd_ig",
+          "name": "Mask2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Mask2.tsx"
+        },
+        {
+          "id": "GO7jWddwdrHO1",
+          "name": "Layer6Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer6.tsx"
+        },
+        {
+          "id": "8vGKT_j0bublL",
+          "name": "Group13Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group13.tsx"
+        },
+        {
+          "id": "eJf2wntFoAOhY",
+          "name": "Group14Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Group14.tsx"
+        },
+        {
+          "id": "nSAucjCNg2r89",
+          "name": "HomeIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Home.tsx"
+        },
+        {
+          "id": "yHqTAD7d7md_s",
+          "name": "ClocktowerLogoIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ClocktowerLogo.tsx"
+        },
+        {
+          "id": "VRmLTlZY_9YH-",
+          "name": "Frame52SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Frame52Svg.tsx"
+        },
+        {
+          "id": "t6Zlai5b8yAc7",
+          "name": "PearGrayLogoIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__PearGrayLogo.tsx"
+        },
+        {
+          "id": "5LPsxsd_-bZhW",
+          "name": "ArrowLeft2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowLeft2.tsx"
+        },
+        {
+          "id": "4UmkTfAtphPaa",
+          "name": "ArrowRight3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRight3.tsx"
+        },
+        {
+          "id": "81K1BnTa-lKGQ",
+          "name": "Cash5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Cash5.tsx"
+        },
+        {
+          "id": "USjAvgCpmbA75",
+          "name": "ArrowRight4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRight4.tsx"
+        },
+        {
+          "id": "QmGbG4CdDnHHq",
+          "name": "Cutlery2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Cutlery2.tsx"
+        },
+        {
+          "id": "vv4iYc_EZgVEt",
+          "name": "CreditCardIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CreditCard.tsx"
+        },
+        {
+          "id": "qjTlS0xLwSgps",
+          "name": "Coffee2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Coffee2.tsx"
+        },
+        {
+          "id": "TIGyZgnvX6OLP",
+          "name": "StarRatingIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__StarRating.tsx"
+        },
+        {
+          "id": "P6NPEecQrqZhY",
+          "name": "Layer7Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer7.tsx"
+        },
+        {
+          "id": "x-fEX2qGySFHx",
+          "name": "Cutlery3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Cutlery3.tsx"
+        },
+        {
+          "id": "qYjMcRaquJ1ru",
+          "name": "CreditCard2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CreditCard2.tsx"
+        },
+        {
+          "id": "EO1cJqq86bros",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "bITJm_vee-XgC",
+          "name": "Silver2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Silver2.tsx"
+        },
+        {
+          "id": "yE_pxAirCuWrB",
+          "name": "Rectangle13Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle13.tsx"
+        },
+        {
+          "id": "yLn1lZOAUbzbG",
+          "name": "Rectangle14Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle14.tsx"
+        },
+        {
+          "id": "eZmrKCEVw6Ma6",
+          "name": "Subtract2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Subtract2.tsx"
+        },
+        {
+          "id": "cQ8lwAGWnuGmB",
+          "name": "Check1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Check1.tsx"
+        },
+        {
+          "id": "09TDhCrjCuEqD",
+          "name": "Close2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Close2.tsx"
+        },
+        {
+          "id": "Uy-I2mYRIgkvh",
+          "name": "CellDivider4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CellDivider4.tsx"
+        },
+        {
+          "id": "dbFWo3pEY3tf7",
+          "name": "Size80X801SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Size80X801Svg.tsx"
+        },
+        {
+          "id": "cgxv4ymQIhWOG",
+          "name": "Size80X802SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Size80X802Svg.tsx"
+        },
+        {
+          "id": "OA5_7wy_iLzAF",
+          "name": "Size80X80SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Size80X80Svg.tsx"
+        },
+        {
+          "id": "4tS77Gpj6AUiw",
+          "name": "Size80X803SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Size80X803Svg.tsx"
+        },
+        {
+          "id": "oxXrMgoc2dggr",
+          "name": "Size80X804SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Size80X804Svg.tsx"
+        },
+        {
+          "id": "HFKzTRvY984S4",
+          "name": "ArrowLeftsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowLeftsvg.tsx"
+        },
+        {
+          "id": "C2dJk_FRFN0gC",
+          "name": "ArrowLeftsvg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowLeftsvg2.tsx"
+        },
+        {
+          "id": "vECUqCHO6TBgZ",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRightsvg.tsx"
+        },
+        {
+          "id": "Xdr9SX0hdSyWf",
+          "name": "Layer8Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer8.tsx"
+        },
+        {
+          "id": "5B-_vQvkI7jv_",
+          "name": "LockIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Lock.tsx"
+        },
+        {
+          "id": "2rZdDqBpNsI3n",
+          "name": "CircleIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Circle.tsx"
+        },
+        {
+          "id": "ssDqJEOkzRm3W",
+          "name": "Silver3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Silver3.tsx"
+        },
+        {
+          "id": "NLBmm4ZSbC37t",
+          "name": "Rectangle16Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle16.tsx"
+        },
+        {
+          "id": "DVKjlJWIPWfxR",
+          "name": "Rectangle17Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Rectangle17.tsx"
+        },
+        {
+          "id": "S-UZudpU8_uk-",
+          "name": "Subtract3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Subtract3.tsx"
+        },
+        {
+          "id": "ukpz4oFAJU_qY",
+          "name": "Close3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Close3.tsx"
+        },
+        {
+          "id": "uJJ8Dn0-XTfyO",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "Eg5uFNpoLzFkm",
+          "name": "ArrowRightsvg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRightsvg2.tsx"
+        },
+        {
+          "id": "qWchLk0kEKjbg",
+          "name": "TinyCavssvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TinyCavssvg.tsx"
+        },
+        {
+          "id": "f0iHiqVuQOxOv",
+          "name": "TinyCelticssvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TinyCelticssvg.tsx"
+        },
+        {
+          "id": "n7Yw70mhhxdBb",
+          "name": "TinyManutdsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TinyManutdsvg.tsx"
+        },
+        {
+          "id": "rjdpNRU-nsmOd",
+          "name": "TinyMarlinssvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TinyMarlinssvg.tsx"
+        },
+        {
+          "id": "t3i6eiaiWJhkk",
+          "name": "ArrowRight5Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ArrowRight5.tsx"
+        },
+        {
+          "id": "S8Bgv4jELvd0X",
+          "name": "Layer9Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Layer9.tsx"
+        },
+        {
+          "id": "-t7D_3cFXu140",
+          "name": "Icon3SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon3Svg.tsx"
+        },
+        {
+          "id": "qMp_sqi9FPg_b",
+          "name": "Icon1SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon1Svg.tsx"
+        },
+        {
+          "id": "bmoT0xQZEQiSd",
+          "name": "Icon5SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon5Svg.tsx"
+        },
+        {
+          "id": "n0BXDuaClf73H",
+          "name": "Icon6SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon6Svg.tsx"
+        },
+        {
+          "id": "i9-VUNUy_khnN",
+          "name": "Icon7SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon7Svg.tsx"
+        },
+        {
+          "id": "t-xstmZ9jxpRq",
+          "name": "Icon8SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon8Svg.tsx"
+        },
+        {
+          "id": "hZoqyk5bO3pZS",
+          "name": "Icon4SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon4Svg.tsx"
+        },
+        {
+          "id": "6EBHTgyT00rPC",
+          "name": "Icon2SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Icon2Svg.tsx"
+        },
+        {
+          "id": "oMh8_J5RYOzgU",
+          "name": "ProfilePicturesvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ProfilePicturesvg.tsx"
+        },
+        {
+          "id": "iOc_TXjhRt-LG",
+          "name": "ProfilePicture4SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ProfilePicture4Svg.tsx"
+        },
+        {
+          "id": "nWHKeg_w4SVr9",
+          "name": "GiftcardWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__GiftcardWeb48Svg.tsx"
+        },
+        {
+          "id": "j5bElzQpwBkZ-",
+          "name": "CashWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CashWeb48Svg.tsx"
+        },
+        {
+          "id": "KLaSbDido_xIC",
+          "name": "DonateWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DonateWeb48Svg.tsx"
+        },
+        {
+          "id": "LcNymbd3BV8Yk",
+          "name": "TransferWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TransferWeb48Svg.tsx"
+        },
+        {
+          "id": "c0ydqhMYeTavv",
+          "name": "GiftcardWeb48Svg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__GiftcardWeb48Svg2.tsx"
+        },
+        {
+          "id": "Xl1FVNot3w_Kd",
+          "name": "CashWeb48Svg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CashWeb48Svg2.tsx"
+        },
+        {
+          "id": "OfVggzDO4VM69",
+          "name": "DonateWeb48Svg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DonateWeb48Svg2.tsx"
+        },
+        {
+          "id": "4mF7XdINhTs_4",
+          "name": "TransferWeb48Svg2Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TransferWeb48Svg2.tsx"
+        },
+        {
+          "id": "gm4opkb3sj08J",
+          "name": "GiftcardWeb48Svg3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__GiftcardWeb48Svg3.tsx"
+        },
+        {
+          "id": "cqgzSehsBWU7b",
+          "name": "CashWeb48Svg3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CashWeb48Svg3.tsx"
+        },
+        {
+          "id": "Jv6sSa8c0D_d9",
+          "name": "DonateWeb48Svg3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DonateWeb48Svg3.tsx"
+        },
+        {
+          "id": "txFteifMU8wTQ",
+          "name": "TransferWeb48Svg3Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TransferWeb48Svg3.tsx"
+        },
+        {
+          "id": "XxWC7oyLDkCNN",
+          "name": "GiftcardWeb48Svg4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__GiftcardWeb48Svg4.tsx"
+        },
+        {
+          "id": "hyX9Mf7rqV8dX",
+          "name": "CashWeb48Svg4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CashWeb48Svg4.tsx"
+        },
+        {
+          "id": "6GnRR5hfrQ2He",
+          "name": "DonateWeb48Svg4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DonateWeb48Svg4.tsx"
+        },
+        {
+          "id": "uZi9UzTt6EaX3",
+          "name": "TransferWeb48Svg4Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TransferWeb48Svg4.tsx"
+        },
+        {
+          "id": "OdwE7yLZTRXI7",
+          "name": "RemoteWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__RemoteWeb48Svg.tsx"
+        },
+        {
+          "id": "3bWUB7drGaoUa",
+          "name": "OfficeWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__OfficeWeb48Svg.tsx"
+        },
+        {
+          "id": "RKBWrJNsMXOd7",
+          "name": "CompensationWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__CompensationWeb48Svg.tsx"
+        },
+        {
+          "id": "uKtoFvR3-c7zb",
+          "name": "VacationWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__VacationWeb48Svg.tsx"
+        },
+        {
+          "id": "ibMF42NL4CC2g",
+          "name": "HealthWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__HealthWeb48Svg.tsx"
+        },
+        {
+          "id": "28AVjGvKLOWjT",
+          "name": "OffsitesWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__OffsitesWeb48Svg.tsx"
+        },
+        {
+          "id": "oCd1rD2Q-IJFO",
+          "name": "DiningWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__DiningWeb48Svg.tsx"
+        },
+        {
+          "id": "BcDjju4dv5U0M",
+          "name": "TransitWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__TransitWeb48Svg.tsx"
+        },
+        {
+          "id": "p7tpYnth3HTyN",
+          "name": "ChildcareWeb48SvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__ChildcareWeb48Svg.tsx"
+        },
+        {
+          "id": "QeMb_grhsgv0U",
+          "name": "Star1Icon",
+          "moduleFilePath": "plasmic/copy_of_cardless_com/icons/PlasmicIcon__Star1.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "e5G2rQa7OeTdT",
+          "name": "g48",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g48.svg"
+        },
+        {
+          "id": "uMC8R7fARRmqT",
+          "name": "g66",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g66.svg"
+        },
+        {
+          "id": "rKVuKglRJIv14",
+          "name": "g80",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g80.svg"
+        },
+        {
+          "id": "QZ1weWC_Yj3Um",
+          "name": "g90",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g90.svg"
+        },
+        {
+          "id": "s-C5APaxkv0Ur",
+          "name": "image",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image.svg"
+        },
+        {
+          "id": "VJ2vI9fKhVZVj",
+          "name": "image 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image2.svg"
+        },
+        {
+          "id": "WMNBQRmvyURg8",
+          "name": "Image 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image3.jpeg"
+        },
+        {
+          "id": "XmMeavhhqj64T",
+          "name": "Image 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image4.jpeg"
+        },
+        {
+          "id": "Ry2vsI1roE13P",
+          "name": "Image 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image5.jpeg"
+        },
+        {
+          "id": "OiA5qgmpFdFNj",
+          "name": "Image 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image6.jpeg"
+        },
+        {
+          "id": "oNTLaKCAkpMn5",
+          "name": "Image 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image7.jpeg"
+        },
+        {
+          "id": "SPw6oE6dRw8AS",
+          "name": "Image 8",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image8.jpeg"
+        },
+        {
+          "id": "heuSi3Fs3sKUk",
+          "name": "Image 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image9.jpeg"
+        },
+        {
+          "id": "FKaGjbXfgRLL2",
+          "name": "Image 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image10.jpeg"
+        },
+        {
+          "id": "E6JtR4tQJywZJ",
+          "name": "Frame 49",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame49.png"
+        },
+        {
+          "id": "5e3ZFeYV3i-ip",
+          "name": "Frame 50",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame50.png"
+        },
+        {
+          "id": "DedyriFDvUZe9",
+          "name": "Frame 52",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame52.png"
+        },
+        {
+          "id": "kFzRbyI9xPljJ",
+          "name": "Image 11",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image11.jpeg"
+        },
+        {
+          "id": "2yM4e9ZQBU9UO",
+          "name": "svgg 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/svgg4.svg"
+        },
+        {
+          "id": "wyQyOXRNAUHXZ",
+          "name": "g48 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g482.svg"
+        },
+        {
+          "id": "Fmxb1C2g41UkP",
+          "name": "g66 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g662.svg"
+        },
+        {
+          "id": "orsJbAfMg_e7F",
+          "name": "g80 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g802.svg"
+        },
+        {
+          "id": "WHd9FpyAwfSIg",
+          "name": "g90 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g902.svg"
+        },
+        {
+          "id": "sOefHntWJTGUk",
+          "name": "Referrals-Hero.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/referralsHeropng.png"
+        },
+        {
+          "id": "iNVrHLrxn1CZs",
+          "name": "Mastercard logo",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo.svg"
+        },
+        {
+          "id": "8vz50oszIFo0S",
+          "name": "Mastercard logo 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo2.svg"
+        },
+        {
+          "id": "ZZKSRWM5MLzPa",
+          "name": "image 12",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image12.svg"
+        },
+        {
+          "id": "NGUO-jUWhxdBe",
+          "name": "image 13",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image13.svg"
+        },
+        {
+          "id": "wHmlC-i-HdZ9e",
+          "name": "image 14",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image14.svg"
+        },
+        {
+          "id": "uOUeV_-8TkzKx",
+          "name": "image 15",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image15.svg"
+        },
+        {
+          "id": "S0WDSs9adlAeN",
+          "name": "image 16",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image16.png"
+        },
+        {
+          "id": "CroKB_5TSgK8m",
+          "name": "image 17",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image17.png"
+        },
+        {
+          "id": "TV9tnUjKgKo8T",
+          "name": "webMU_Card_1 (2) 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/webMuCard121.jpeg"
+        },
+        {
+          "id": "p_-AAWPMcGjTC",
+          "name": "Card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/card.png"
+        },
+        {
+          "id": "HmMZr6u0OZ0bX",
+          "name": "Old_Trafford_dusk 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldTraffordDusk1.jpeg"
+        },
+        {
+          "id": "Sr8XO-7vCPn7B",
+          "name": "33.0 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3301.png"
+        },
+        {
+          "id": "w3hRnh4gzIpph",
+          "name": "33.0 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3302.png"
+        },
+        {
+          "id": "L1734GvzL57o5",
+          "name": "Change This",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/changeThis.png"
+        },
+        {
+          "id": "aCzK5j_kZnGun",
+          "name": "iPhone 12 Pro",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/iPhone12Pro.png"
+        },
+        {
+          "id": "krbWNWPjnWBQD",
+          "name": "iPhone 12 Pro 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/iPhone12Pro2.png"
+        },
+        {
+          "id": "um0guQds_B1fS",
+          "name": "Man Utd",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtd.svg"
+        },
+        {
+          "id": "ypE6VAiG1KfTu",
+          "name": "Cash",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cash.svg"
+        },
+        {
+          "id": "jizD8xNLJ6SuD",
+          "name": "gift 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift3.svg"
+        },
+        {
+          "id": "X8mHXRY9BNPEN",
+          "name": "send 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/send1.svg"
+        },
+        {
+          "id": "Kzm8r-MeOadOG",
+          "name": "gift 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift1.svg"
+        },
+        {
+          "id": "IyGKYxi20Y8BC",
+          "name": "gift 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift4.svg"
+        },
+        {
+          "id": "HVBml_HK3paeM",
+          "name": "Logos",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logos.svg"
+        },
+        {
+          "id": "bTMF_2DF8hykf",
+          "name": "g48 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g483.svg"
+        },
+        {
+          "id": "XXJJFJ7IEkfkC",
+          "name": "g66 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g663.svg"
+        },
+        {
+          "id": "qjHCDUpsgg8jf",
+          "name": "g80 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g803.svg"
+        },
+        {
+          "id": "T1L5CroP08Uqp",
+          "name": "g90 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g903.svg"
+        },
+        {
+          "id": "a5VFhXIH52r0N",
+          "name": "layer1 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer12.svg"
+        },
+        {
+          "id": "VkI1nZTThEVVN",
+          "name": "Logo White 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite2.svg"
+        },
+        {
+          "id": "QJQp7K2ZGCtyx",
+          "name": "Mastercard logo 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo3.svg"
+        },
+        {
+          "id": "aPIdWVb4TsOxx",
+          "name": "33.0 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3303.svg"
+        },
+        {
+          "id": "hTxKAdDElvHzE",
+          "name": "layer1 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer13.svg"
+        },
+        {
+          "id": "JvIGFKPb-6AyX",
+          "name": "Logo White 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite3.svg"
+        },
+        {
+          "id": "poFU5_S3Od5nG",
+          "name": "Mastercard logo 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo4.svg"
+        },
+        {
+          "id": "7vXvQmuSjLhjU",
+          "name": "layer1 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer14.svg"
+        },
+        {
+          "id": "zYytuLlqAU8kC",
+          "name": "Logo White 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite4.svg"
+        },
+        {
+          "id": "Q-I3FhW590Xg-",
+          "name": "33.0 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3304.svg"
+        },
+        {
+          "id": "rY5Ek28QP5eDa",
+          "name": "layer1 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer15.svg"
+        },
+        {
+          "id": "QaObLktUYewrG",
+          "name": "Logo White 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite5.svg"
+        },
+        {
+          "id": "tWnnQMM3Z9GkQ",
+          "name": "Mastercard logo 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo5.svg"
+        },
+        {
+          "id": "xYBQpoumM90tv",
+          "name": "Marlins",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlins.svg"
+        },
+        {
+          "id": "CpNwEHrdjkc9C",
+          "name": "layer1 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer16.svg"
+        },
+        {
+          "id": "g4Ib2Uw-i4N-w",
+          "name": "Logo White 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite6.svg"
+        },
+        {
+          "id": "N-266GQPoUHP1",
+          "name": "Mastercard logo 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo6.svg"
+        },
+        {
+          "id": "3UT2z4VnacZ4E",
+          "name": "Rectangle 20",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle20.svg"
+        },
+        {
+          "id": "z1dLcsaahlTjt",
+          "name": "Group 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group10.svg"
+        },
+        {
+          "id": "W80cysOngxig5",
+          "name": "Rectangle 12",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle12.svg"
+        },
+        {
+          "id": "bXrRGXVJbNS_J",
+          "name": "Rectangle 21",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle21.svg"
+        },
+        {
+          "id": "Ch1BEip6euaqc",
+          "name": "Group 11",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group11.svg"
+        },
+        {
+          "id": "9M4ta7DHw2rM8",
+          "name": "iphone-12-pro--screen",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/iphone12ProScreen.svg"
+        },
+        {
+          "id": "OGZ2u0CqiB8Wu",
+          "name": "Group 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group9.svg"
+        },
+        {
+          "id": "Au3xwzUGHrNXv",
+          "name": "g48 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g484.svg"
+        },
+        {
+          "id": "OUxMi5icoyJN9",
+          "name": "g66 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g664.svg"
+        },
+        {
+          "id": "5piAmczeH9j25",
+          "name": "g80 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g804.svg"
+        },
+        {
+          "id": "ujfUdU8qSzTw9",
+          "name": "g90 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g904.svg"
+        },
+        {
+          "id": "jlP0-6tnHqTvX",
+          "name": "Logos 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logos2.svg"
+        },
+        {
+          "id": "cAb_uI16l-SrX",
+          "name": "g48 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g485.svg"
+        },
+        {
+          "id": "R5PhrGZj1ryro",
+          "name": "g66 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g665.svg"
+        },
+        {
+          "id": "WcSw7pYYZJcsR",
+          "name": "g80 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g805.svg"
+        },
+        {
+          "id": "EoAPCGIaVH16H",
+          "name": "g90 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g905.svg"
+        },
+        {
+          "id": "pFUXaRF9vbmdg",
+          "name": "layer1 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer17.svg"
+        },
+        {
+          "id": "HRhTTlk9FuGq1",
+          "name": "Logo White 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite7.svg"
+        },
+        {
+          "id": "-HU2DmErXDjbe",
+          "name": "33.0 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3305.svg"
+        },
+        {
+          "id": "KfVzFfW0t3-N3",
+          "name": "layer1 8",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer18.svg"
+        },
+        {
+          "id": "WAwU4djF7D1ff",
+          "name": "Logo White 8",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite8.svg"
+        },
+        {
+          "id": "cKMkaSuFKtPQK",
+          "name": "layer1 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer19.svg"
+        },
+        {
+          "id": "rIl82UY8d_Mkj",
+          "name": "Logo White 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite9.svg"
+        },
+        {
+          "id": "LC3c1f-nU08wR",
+          "name": "Mastercard logo 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo7.svg"
+        },
+        {
+          "id": "hPvsKNepiaQ-b",
+          "name": "Change This 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/changeThis2.svg"
+        },
+        {
+          "id": "C0hakjAzYbOPR",
+          "name": "g48 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g486.svg"
+        },
+        {
+          "id": "_PccNA0c9GqM1",
+          "name": "g66 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g666.svg"
+        },
+        {
+          "id": "Z2IchJmRugL9g",
+          "name": "g80 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g806.svg"
+        },
+        {
+          "id": "IO155bFeYWfce",
+          "name": "g90 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g906.svg"
+        },
+        {
+          "id": "iAyt8GYcV_qzC",
+          "name": "Card 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/card2.png"
+        },
+        {
+          "id": "u9zt3YtLDhSgx",
+          "name": "Mastercard logo 8",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo8.svg"
+        },
+        {
+          "id": "hnLhWzC0HrR9A",
+          "name": "Marlins 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlins2.svg"
+        },
+        {
+          "id": "fzW7cvjtoRe5B",
+          "name": "layer1 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/layer110.svg"
+        },
+        {
+          "id": "nFIqEFzBCiij1",
+          "name": "Logo White 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/logoWhite10.svg"
+        },
+        {
+          "id": "vhBKVLQhmYYyc",
+          "name": "Mastercard logo 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo9.svg"
+        },
+        {
+          "id": "Lakrog6AVEBIg",
+          "name": "Referrals-Hero.png 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/referralsHeropng2.png"
+        },
+        {
+          "id": "r5BNnIHBVDHZv",
+          "name": "Cash 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cash3.svg"
+        },
+        {
+          "id": "JVKWw7CB101gL",
+          "name": "gift 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift5.svg"
+        },
+        {
+          "id": "Qbe92TUACS6Cr",
+          "name": "send 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/send3.svg"
+        },
+        {
+          "id": "aw8o78HxZGPqj",
+          "name": "gift 6",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift6.svg"
+        },
+        {
+          "id": "20TOEBe2_1fsb",
+          "name": "gift 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift7.svg"
+        },
+        {
+          "id": "Nt01QepiZPhno",
+          "name": "image 18",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image18.svg"
+        },
+        {
+          "id": "LzBrYlwLuhXPx",
+          "name": "Old_Trafford_dusk 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldTraffordDusk2.png"
+        },
+        {
+          "id": "vaAJmQze2s08r",
+          "name": "Frame 34422",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame34422.svg"
+        },
+        {
+          "id": "jCXQNkAQ_uhHf",
+          "name": "Cash 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cash4.svg"
+        },
+        {
+          "id": "B-b1CJYCY3wND",
+          "name": "gift 8",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift8.svg"
+        },
+        {
+          "id": "RPpcxagrHPNph",
+          "name": "send 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/send4.svg"
+        },
+        {
+          "id": "xVmFqAj3twHNq",
+          "name": "gift 9",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift9.svg"
+        },
+        {
+          "id": "4lKtLC4iDLqLE",
+          "name": "gift 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/gift10.svg"
+        },
+        {
+          "id": "bqtew-et4qjLS",
+          "name": "webMU_Card_1 (2) 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/webMuCard122.jpeg"
+        },
+        {
+          "id": "4shNsDdDXbrTW",
+          "name": "Man Utd 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtd2.svg"
+        },
+        {
+          "id": "M7hnA-3PEl9W4",
+          "name": "adam",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/adam.png"
+        },
+        {
+          "id": "08My6sWzh2Lmk",
+          "name": "rida",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rida.png"
+        },
+        {
+          "id": "3pzkETpaXyrt5",
+          "name": "image 19",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image19.png"
+        },
+        {
+          "id": "D6fw12AYr5J5x",
+          "name": "christina",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/christina.png"
+        },
+        {
+          "id": "4oijxVRDDZU0X",
+          "name": "zach",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/zach.png"
+        },
+        {
+          "id": "F2wv8hZQNCTCV",
+          "name": "aseem",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/aseem.png"
+        },
+        {
+          "id": "u8PBnzyqZeM4k",
+          "name": "sarah",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/sarah.png"
+        },
+        {
+          "id": "PASK8E-5COJXU",
+          "name": "victor",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/victor.png"
+        },
+        {
+          "id": "sUiZ3o-CRchvX",
+          "name": "izzy",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/izzy.png"
+        },
+        {
+          "id": "M_uq7GjiJvDWZ",
+          "name": "Mastercard logo 10",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo10.svg"
+        },
+        {
+          "id": "S3hu37vyOVRN6",
+          "name": "Image 20",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image20.jpeg"
+        },
+        {
+          "id": "a7iE6BPcXaTvN",
+          "name": "Manutd_transp_name.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manutdTranspNamepng.png"
+        },
+        {
+          "id": "SyYyRGzCRl2H4",
+          "name": "Man Utd 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtd3.svg"
+        },
+        {
+          "id": "QjGKEmfyIhcl8",
+          "name": "8H3A3463 (1).jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A34631Jpg.jpeg"
+        },
+        {
+          "id": "WiQZtaOmQVi7Q",
+          "name": "8H3A2853 (1).jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A28531Jpg.jpeg"
+        },
+        {
+          "id": "8ZW27nGUZ7p9h",
+          "name": "Man Utd 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtd4.svg"
+        },
+        {
+          "id": "o1Jb50czXi7Qb",
+          "name": "Main Photo",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mainPhoto.jpeg"
+        },
+        {
+          "id": "KJADTOqPMlItJ",
+          "name": "Image 21",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image21.jpeg"
+        },
+        {
+          "id": "eHx-pBYg5GG6D",
+          "name": "Man Utd - gray",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtdGray.png"
+        },
+        {
+          "id": "qbRRmlYKWirZK",
+          "name": "Cavs - gray",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsGray.png"
+        },
+        {
+          "id": "Ryv6Vgx-kM20Q",
+          "name": "Marlins - gray ",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsGray.png"
+        },
+        {
+          "id": "xJZOQXDBMj340",
+          "name": "image 22",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/image22.png"
+        },
+        {
+          "id": "G-6_llKU3HB8k",
+          "name": "Frame 3630",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3630.jpeg"
+        },
+        {
+          "id": "c-S7pUlEYaduo",
+          "name": "Frame 3631",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3631.jpeg"
+        },
+        {
+          "id": "fzyKIxHi_0dAv",
+          "name": "Frame 3632",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3632.jpeg"
+        },
+        {
+          "id": "MWGuuJJHu78YG",
+          "name": "Frame 3633",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3633.jpeg"
+        },
+        {
+          "id": "EX8Z0Wt7MebHC",
+          "name": "Frame 3634",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3634.jpeg"
+        },
+        {
+          "id": "lvhx2-NzOzn3-",
+          "name": "Frame 3635",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3635.jpeg"
+        },
+        {
+          "id": "Jj6B8IWvkAy6P",
+          "name": "Frame 3636",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3636.jpeg"
+        },
+        {
+          "id": "aBf6cQSzgyWU9",
+          "name": "Frame 3637",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3637.jpeg"
+        },
+        {
+          "id": "jWMmrOQOlaufU",
+          "name": "Frame 3638",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame3638.jpeg"
+        },
+        {
+          "id": "StEn1tScMY70G",
+          "name": "Mastercard logo 11",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo11.svg"
+        },
+        {
+          "id": "IarZ8w19zNjI4",
+          "name": "app-store-1 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/appStore11.svg"
+        },
+        {
+          "id": "iLFGErwgXFmtB",
+          "name": "Google_Play_Arrow_logo 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/googlePlayArrowLogo1.svg"
+        },
+        {
+          "id": "dXO56whTgox8D",
+          "name": "Rectangle 22",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle22.svg"
+        },
+        {
+          "id": "67Md0bN6ZkEPF",
+          "name": "Group 15",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group15.svg"
+        },
+        {
+          "id": "O9PgeAo5xigG9",
+          "name": "Rectangle 15",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle15.svg"
+        },
+        {
+          "id": "W0HjudrOam28Z",
+          "name": "Rectangle 23",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle23.svg"
+        },
+        {
+          "id": "q0v_vSFSWgEJ7",
+          "name": "Group 16",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group16.svg"
+        },
+        {
+          "id": "4QpLZa0_tFXfL",
+          "name": "iphone-12-pro--screen 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/iphone12ProScreen2.svg"
+        },
+        {
+          "id": "SHIoTd1LwdOwn",
+          "name": "Group 17",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group17.svg"
+        },
+        {
+          "id": "RRDGAt06jfk-6",
+          "name": "g48 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g487.svg"
+        },
+        {
+          "id": "kiRaPOyoGa-Wn",
+          "name": "g66 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g667.svg"
+        },
+        {
+          "id": "B11hEucSZi7rg",
+          "name": "g80 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g807.svg"
+        },
+        {
+          "id": "VdZxsQJmPw-mC",
+          "name": "g90 7",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/g907.svg"
+        },
+        {
+          "id": "JbNrk6T-vbZHV",
+          "name": "UI Illustration.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/uiIllustrationpng.png"
+        },
+        {
+          "id": "lj3tzjPHq_LeQ",
+          "name": "Photo",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/photo.jpeg"
+        },
+        {
+          "id": "pqKHMzks-I3eF",
+          "name": "Photo 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/photo2.jpeg"
+        },
+        {
+          "id": "-DHTYYB2LQkhX",
+          "name": "Applepayui 1",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/applepayui1.png"
+        },
+        {
+          "id": "YwcZOl-YbJzYN",
+          "name": "Rectangle 24",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle24.svg"
+        },
+        {
+          "id": "aIVw4cK-IDiRb",
+          "name": "Group 18",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group18.svg"
+        },
+        {
+          "id": "7i0xqcLAL1uHc",
+          "name": "Rectangle 18",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle18.svg"
+        },
+        {
+          "id": "xsI2bZv9ctann",
+          "name": "Rectangle 25",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rectangle25.svg"
+        },
+        {
+          "id": "049FoVLSrS0PB",
+          "name": "Group 19",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group19.svg"
+        },
+        {
+          "id": "ZSnJk3F-OdBqL",
+          "name": "iphone-12-pro--screen 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/iphone12ProScreen3.svg"
+        },
+        {
+          "id": "6sb__JoLMl4-Q",
+          "name": "Group 20",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group20.svg"
+        },
+        {
+          "id": "8t2ccKe6cH4hr",
+          "name": "Mastercard logo 12",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo12.svg"
+        },
+        {
+          "id": "VnwZNZdzljTF3",
+          "name": "app-store-1 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/appStore12.svg"
+        },
+        {
+          "id": "UpCrXFhpZA_LU",
+          "name": "Google_Play_Arrow_logo 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/googlePlayArrowLogo2.svg"
+        },
+        {
+          "id": "kjTHYzxC7MCpV",
+          "name": "8H3A3846.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3846Jpg.jpeg"
+        },
+        {
+          "id": "NB2GIu5eNSvar",
+          "name": "celtics-stadium",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsStadium.png"
+        },
+        {
+          "id": "BHdWxhfUm51BQ",
+          "name": "celtics-mobile-app",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsMobileApp.png"
+        },
+        {
+          "id": "Xmn7dsx0n6EDV",
+          "name": "celtics-card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsCard.png"
+        },
+        {
+          "id": "unCrDt51Jf_i1",
+          "name": "celtics-screen",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsScreen.png"
+        },
+        {
+          "id": "unP6LWKiurQJu",
+          "name": "celtics-transp-card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsTranspCard.png"
+        },
+        {
+          "id": "Oki4n-XFz7nEO",
+          "name": "manu-card 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manuCard2.png"
+        },
+        {
+          "id": "ewXyR7klQYtLF",
+          "name": "marlins-card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsCard.png"
+        },
+        {
+          "id": "20TD61k5TE7mq",
+          "name": "cavs-card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsCard.png"
+        },
+        {
+          "id": "kVchkccDqpfHE",
+          "name": "cavs-screen",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsScreen.png"
+        },
+        {
+          "id": "Itqw_MsfNxS8z",
+          "name": "cavs-transp-card 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsTranspCard2.png"
+        },
+        {
+          "id": "np6VAJi5iA_1P",
+          "name": "Frame 34399.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame34399Png.png"
+        },
+        {
+          "id": "HG4IXMFFwYW43",
+          "name": "marlins-transp-card",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsTranspCard.png"
+        },
+        {
+          "id": "zNJiXi-2tmwCL",
+          "name": "marlins-card 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsCard2.png"
+        },
+        {
+          "id": "4VwRKqR1yHf5i",
+          "name": "Frame 34399 (1).png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/frame343991Png.png"
+        },
+        {
+          "id": "hj1Wh3m2sLcKp",
+          "name": "marlins-screen",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsScreen.png"
+        },
+        {
+          "id": "fBUqPore_husH",
+          "name": "2.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_2Jpeg.jpeg"
+        },
+        {
+          "id": "uBZ-jOMq5QcW8",
+          "name": "3.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_3Jpeg.jpeg"
+        },
+        {
+          "id": "cCbq4_Ft7BccS",
+          "name": "4.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_4Jpeg.jpeg"
+        },
+        {
+          "id": "QuOdgvPo-SYjm",
+          "name": "5.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_5Jpeg.jpeg"
+        },
+        {
+          "id": "dIOJFWf_n4m6h",
+          "name": "6.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_6Jpeg.jpeg"
+        },
+        {
+          "id": "BWo1E5jhsK_GW",
+          "name": "7.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_7Jpeg.jpeg"
+        },
+        {
+          "id": "c13dpnc9uwVc7",
+          "name": "8.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8Jpeg.jpeg"
+        },
+        {
+          "id": "HS8l4Q-i2C8kj",
+          "name": "1.jpeg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_1Jpeg.jpeg"
+        },
+        {
+          "id": "1YuPUvZ0isLxg",
+          "name": "retail_hero_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/retailHeroCompressedjpg.jpeg"
+        },
+        {
+          "id": "B4ivTs3q8rWXX",
+          "name": "Mastercard logo 13",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mastercardLogo13.svg"
+        },
+        {
+          "id": "BPXTakOu9N73q",
+          "name": "Marlins 3",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlins3.svg"
+        },
+        {
+          "id": "S2BwJ39g77nEU",
+          "name": "Marlins 4",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlins4.svg"
+        },
+        {
+          "id": "XoRlCCexwTU_8",
+          "name": "Man Utd 5",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manUtd5.svg"
+        },
+        {
+          "id": "s9Z5W0B8KOUaB",
+          "name": "Group 21",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/group21.svg"
+        },
+        {
+          "id": "wiaMhf1QVAh6M",
+          "name": "adam_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/adamCareersjpg.jpeg"
+        },
+        {
+          "id": "OZ0uKhTLvWlPB",
+          "name": "christina_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/christinaCareersjpg.jpeg"
+        },
+        {
+          "id": "GytNwsZyNGO4q",
+          "name": "izzy_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/izzyCareersjpg.jpeg"
+        },
+        {
+          "id": "xv69XDMjiiaVN",
+          "name": "aseem_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/aseemCareersjpg.jpeg"
+        },
+        {
+          "id": "TXYp4CBZpq1RZ",
+          "name": "rida_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/ridaCareersjpg.jpeg"
+        },
+        {
+          "id": "Jt8Lbc35P1UoN",
+          "name": "zach_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/zachCareersjpg.jpeg"
+        },
+        {
+          "id": "yNePpyt7yLjP4",
+          "name": "sarah_careers.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/sarahCareersjpg.jpeg"
+        },
+        {
+          "id": "uRrYeAVylLhjf",
+          "name": "dolpark-compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/dolparkCompressedjpg.jpeg"
+        },
+        {
+          "id": "MDiYryKmh7q6L",
+          "name": "hero_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/heroCompressedjpg.jpeg"
+        },
+        {
+          "id": "KePwFF7P_k--R",
+          "name": "8H3A2853_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A2853Compressedjpg.jpeg"
+        },
+        {
+          "id": "PcuaCqF1tbzFg",
+          "name": "8H3A2823_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A2823Compressedjpg.jpeg"
+        },
+        {
+          "id": "ST2VELRrkiGGb",
+          "name": "8H3A3142_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3142Compressedjpg.jpeg"
+        },
+        {
+          "id": "O49oRbFwlIZRp",
+          "name": "8H3A3730_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3730Compressedjpg.jpeg"
+        },
+        {
+          "id": "joUl7fZgCrqez",
+          "name": "8H3A3903_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3903Compressedjpg.jpeg"
+        },
+        {
+          "id": "MdlBLPYXgOd6z",
+          "name": "8H3A4119_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A4119Compressedjpg.jpeg"
+        },
+        {
+          "id": "IpUbuUdJFBTV8",
+          "name": "8H3A2870_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A2870Compressedjpg.jpeg"
+        },
+        {
+          "id": "seLW8R6-UJ9y3",
+          "name": "8H3A3380_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3380Compressedjpg.jpeg"
+        },
+        {
+          "id": "Etrho_6K7Mckg",
+          "name": "8H3A4132_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A4132Compressedjpg.jpeg"
+        },
+        {
+          "id": "6_6OTFX82Uwl1",
+          "name": "8H3A3406_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/_8H3A3406Compressedjpg.jpeg"
+        },
+        {
+          "id": "XhRnHVZczNRTw",
+          "name": "Manutd_transp_name_compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manutdTranspNameCompressedjpg.jpeg"
+        },
+        {
+          "id": "TsNbVe3pH-ctP",
+          "name": "Manutd_transp_name.png 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manutdTranspNamepng2.png"
+        },
+        {
+          "id": "0O04sC-ZNgvun",
+          "name": "Cavs_transp_name.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsTranspNamepng.png"
+        },
+        {
+          "id": "CdqDH0jx2Se7D",
+          "name": "Celtics_transp_name.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsTranspNamepng.png"
+        },
+        {
+          "id": "8mXCMK5oGZs4h",
+          "name": "Marlins_transp_name.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsTranspNamepng.png"
+        },
+        {
+          "id": "eag6uKovTQYwA",
+          "name": "Home - Marlins.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/homeMarlinspng.png"
+        },
+        {
+          "id": "YvT10z-tJbhmu",
+          "name": "Home - Man Utd.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/homeManUtdpng.png"
+        },
+        {
+          "id": "lrWxwJq2NsaUF",
+          "name": "Home - Celtics.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/homeCelticspng.png"
+        },
+        {
+          "id": "z9NdeSA5i6Gsh",
+          "name": "Home - Cavs.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/homeCavspng.png"
+        },
+        {
+          "id": "vrA3PK6ygzxv4",
+          "name": "marlins_ui.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsUipng.png"
+        },
+        {
+          "id": "Z_1SfOLNi5Y21",
+          "name": "Profile Picture.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/profilePicturepng.png"
+        },
+        {
+          "id": "SmTBGz4chJy7s",
+          "name": "Profile Picture-1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/profilePicture1Png.png"
+        },
+        {
+          "id": "sS6hGaUxizZYb",
+          "name": "Profile Picture-2.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/profilePicture2Png.png"
+        },
+        {
+          "id": "uCISHO3gff0OB",
+          "name": "Profile Picture-3.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/profilePicture3Png.png"
+        },
+        {
+          "id": "Nw2RwHoXEccWA",
+          "name": "Profile Picture-4.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/profilePicture4Png.png"
+        },
+        {
+          "id": "mpJ51TCBOJjB1",
+          "name": "KevinLove.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/kevinLovejpg.jpeg"
+        },
+        {
+          "id": "Ks6uXbkrHwYJG",
+          "name": "celtics-card-2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsCard2.png"
+        },
+        {
+          "id": "qzVZ9XuN0LS7E",
+          "name": "celtics-card-2 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsCard22.png"
+        },
+        {
+          "id": "e2390QL3N9xv8",
+          "name": "rashford_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rashfordJersey11Png.png"
+        },
+        {
+          "id": "xHsLDzq1TF-Op",
+          "name": "greenwood_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/greenwoodJersey11Png.png"
+        },
+        {
+          "id": "KGEOzcFCQqv2n",
+          "name": "james_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/jamesJersey11Png.png"
+        },
+        {
+          "id": "JqcUe7OYAfmWu",
+          "name": "fred_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/fredJersey11Png.png"
+        },
+        {
+          "id": "7xWQ1skuVy9gn",
+          "name": "powe_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/poweJersey11Png.png"
+        },
+        {
+          "id": "8WVNu5xcrU9xp",
+          "name": "basketball_signed_bird_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/basketballSignedBird11Png.png"
+        },
+        {
+          "id": "Vm5vNzyrcoI9q",
+          "name": "floor_piece_signed_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/floorPieceSigned11Png.png"
+        },
+        {
+          "id": "ZjXZpTCO7nSKd",
+          "name": "jersey_signed_bird_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/jerseySignedBird11Png.png"
+        },
+        {
+          "id": "MmjlhgUAovo7X",
+          "name": "love_jersey_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/loveJersey11Png.png"
+        },
+        {
+          "id": "Jxdxy1lDxvWqA",
+          "name": "nance_jr_jersey_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/nanceJrJersey1Png.png"
+        },
+        {
+          "id": "mFZWy3C2YBfWp",
+          "name": "herschel_backpack_c_sword_1 1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/herschelBackpackCSword11Png.png"
+        },
+        {
+          "id": "dHF9WrWAo-Dga",
+          "name": "okoro_jersey_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/okoroJersey1Png.png"
+        },
+        {
+          "id": "-Fddp0Rhcda9w",
+          "name": "chisholm_jr_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/chisholmJr1Png.png"
+        },
+        {
+          "id": "5rND69iBcf2Mr",
+          "name": "rogers_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/rogers1Png.png"
+        },
+        {
+          "id": "yQWn8y3Tm7SMT",
+          "name": "alcantara_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/alcantara1Png.png"
+        },
+        {
+          "id": "UjTfK1J0du4JU",
+          "name": "mattingly_1.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/mattingly1Png.png"
+        },
+        {
+          "id": "Cv9i1qH6rIw5t",
+          "name": "manutd_stadium-compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/manutdStadiumCompressedjpg.jpeg"
+        },
+        {
+          "id": "naH_2MnjMHMSp",
+          "name": "celtics_stadium-compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/celticsStadiumCompressedjpg.jpeg"
+        },
+        {
+          "id": "uZv6wg7IuP4tL",
+          "name": "cavs_stadium-compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/cavsStadiumCompressedjpg.jpeg"
+        },
+        {
+          "id": "HQZMQFibDYON3",
+          "name": "marlins_stadium-compressed.jpg",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/marlinsStadiumCompressedjpg.jpeg"
+        },
+        {
+          "id": "zqAo1UeU5HlKK",
+          "name": "old_ui_manutd.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiManutdpng.png"
+        },
+        {
+          "id": "4PK4_Eij8aHS7",
+          "name": "old_ui_celtics.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiCelticspng.png"
+        },
+        {
+          "id": "9mxGeLyDiAzSr",
+          "name": "old_ui_cavs.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiCavspng.png"
+        },
+        {
+          "id": "4_8Jn_2rhsoZj",
+          "name": "old_ui_cavs.png 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiCavspng2.png"
+        },
+        {
+          "id": "W6lot0GH5bmTe",
+          "name": "old_ui_marlins.png",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiMarlinspng.png"
+        },
+        {
+          "id": "L8otpEjG-yDhn",
+          "name": "old_ui_celtics.png 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiCelticspng2.png"
+        },
+        {
+          "id": "xxlLvnLcDhZxb",
+          "name": "old_ui_manutd.png 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/oldUiManutdpng2.png"
+        },
+        {
+          "id": "uJXT3OrJwEzJ4",
+          "name": "sarah_careers.jpg 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/sarahCareersjpg2.jpeg"
+        },
+        {
+          "id": "cE_pov0ioBq1B",
+          "name": "christina_careers.jpg 2",
+          "filePath": "../public/plasmic/copy_of_cardless_com/images/christinaCareersjpg2.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": [
+        {
+          "id": "VpJrKbBamu0m",
+          "name": "NavBar",
+          "componentImportPath": "./components/layout/NavBar"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "bUUiKYc55Zpu",
+        "name": "Screen",
+        "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+        "contextFilePath": "plasmic/copy_of_cardless_com/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "RIq68Up0Sibe",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "5bwAVSS7yxRyYYekzZSF6R",
+        "contextFilePath": "plasmic/copy_of_cardless_com/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}

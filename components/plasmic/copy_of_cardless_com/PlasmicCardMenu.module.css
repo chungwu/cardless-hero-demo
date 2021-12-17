@@ -1,0 +1,208 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  height: auto;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 8px 0px #b5b5b540, 0px 1px 4px 0px #b5b5b540;
+  flex-shrink: 0;
+  width: auto;
+  border-radius: 12px;
+  padding: 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+@media (max-width: 800px) {
+  .root {
+    box-shadow: none;
+    background: none;
+    width: 100%;
+    min-width: 0;
+    padding: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .root > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
+.root__darkMode {
+  background: #222222;
+  box-shadow: none;
+}
+@media (max-width: 800px) {
+  .root__darkMode {
+    box-shadow: none;
+    background: none;
+  }
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.list > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 12px);
+  height: calc(100% + 12px);
+}
+.list > :global(.__wab_flex-container) > *,
+.list > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.list > :global(.__wab_flex-container) > picture > img,
+.list > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 12px;
+}
+@media (max-width: 800px) {
+  .list {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 800px) {
+  .list > :global(.__wab_flex-container) {
+    min-width: 0;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 8px);
+    height: calc(100% + 8px);
+  }
+}
+@media (max-width: 800px) {
+  .list > :global(.__wab_flex-container) > *,
+  .list > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .list > :global(.__wab_flex-container) > picture > img,
+  .list
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 8px;
+  }
+}
+.cardsMenuItem__mRsjn:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
+}
+.svg__z6Uqf {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 48px;
+}
+@media (max-width: 800px) {
+  .svg__z6Uqf {
+    display: none;
+  }
+}
+.svg__acVJa {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 48px;
+}
+@media (max-width: 800px) {
+  .svg__acVJa {
+    min-width: 72px;
+    min-height: 48px;
+  }
+}
+.cardsMenuItem__eongm:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
+}
+@media (max-width: 800px) {
+  .cardsMenuItem__eongm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.svg__ioJbq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 48px;
+}
+@media (max-width: 800px) {
+  .svg__ioJbq {
+    min-width: 72px;
+    min-height: 48px;
+  }
+}
+.cardsMenuItem__dmZoN:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
+}
+@media (max-width: 800px) {
+  .cardsMenuItem__dmZoN:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.svg__bkhQh {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 48px;
+}
+@media (max-width: 800px) {
+  .svg__bkhQh {
+    min-width: 72px;
+    min-height: 48px;
+  }
+}
+.cardsMenuItem__jk3QZ:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
+}
+@media (max-width: 800px) {
+  .cardsMenuItem__jk3QZ:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.svg__s4ORm {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 48px;
+}
+@media (max-width: 800px) {
+  .svg__s4ORm {
+    min-width: 72px;
+    min-height: 48px;
+  }
+}

@@ -1,0 +1,82 @@
+.root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  border-radius: 16px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 64px);
+  height: calc(100% + 64px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 64px;
+}
+.copy29 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.copy29 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.copy29 > :global(.__wab_flex-container) > *,
+.copy29 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.copy29 > :global(.__wab_flex-container) > picture > img,
+.copy29
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.slotTargetHeader {
+  font-family: Roobert;
+  font-weight: 600;
+  font-size: 1.5rem /* plasmic-token: UwEtUtVCTxzAc */;
+  line-height: 2rem /* plasmic-token: KxpeV-D3olUUT */;
+  letter-spacing: 0px;
+}
+@media (max-width: 520px) {
+  .slotTargetHeader {
+    font-family: Roobert;
+    font-weight: 600;
+    font-size: 1.13rem /* plasmic-token: Ph5eB48PW4HTW */;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .slotTargetHeader {
+    font-family: Roobert;
+    font-weight: 600;
+    font-size: 1.13rem /* plasmic-token: Ph5eB48PW4HTW */;
+    line-height: 1.5rem;
+  }
+}
+.text__h4B38 {
+  display: block;
+  color: #181818 /* plasmic-token: HiHmSIXx2eHbj */;
+}
+.slotTargetBenefits {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676 /* plasmic-token: oqlBjEs3KhsvV */;
+  line-height: 24px;
+  letter-spacing: 0px;
+}

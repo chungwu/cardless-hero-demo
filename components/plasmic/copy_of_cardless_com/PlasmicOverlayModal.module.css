@@ -1,0 +1,197 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.modal {
+  background: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  flex-direction: column;
+  z-index: 1;
+  max-width: 58.5rem;
+  max-height: 65vh;
+  border-radius: 16px;
+  padding: 2.5rem;
+  margin: 1rem;
+}
+.modal > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 0.63rem);
+  height: calc(100% + 0.63rem);
+}
+.modal > :global(.__wab_flex-container) > *,
+.modal > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.modal > :global(.__wab_flex-container) > picture > img,
+.modal > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 0.63rem;
+}
+@media (max-width: 414px) {
+  .modal {
+    max-height: 100vh;
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    border-radius: 0px;
+    padding: 1.5rem;
+    margin: 0rem;
+  }
+}
+@media (max-width: 414px) {
+  .modal > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
+.content {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-top: calc(0px - 2.5rem);
+  height: calc(100% + 2.5rem);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2.5rem;
+}
+.contentHeader {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+}
+.contentHeader > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.contentHeader > :global(.__wab_flex-container) > *,
+.contentHeader > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.contentHeader > :global(.__wab_flex-container) > picture > img,
+.contentHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+}
+@media (max-width: 414px) {
+  .contentHeader > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (max-width: 414px) {
+  .contentHeader > :global(.__wab_flex-container) > *,
+  .contentHeader > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .contentHeader > :global(.__wab_flex-container) > picture > img,
+  .contentHeader
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.slotTargetTitle {
+  font-family: Roobert;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+@media (max-width: 414px) {
+  .slotTargetTitle {
+    font-size: 18px;
+  }
+}
+.closeButton {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.closeButton > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.closeButton > :global(.__wab_flex-container) > *,
+.closeButton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.closeButton > :global(.__wab_flex-container) > picture > img,
+.closeButton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.contentBody {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 0;
+}
+.slotTargetChildren {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(23, 23, 23, 1);
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.text__pmCmZ {
+  position: relative;
+  left: auto;
+  top: auto;
+}
