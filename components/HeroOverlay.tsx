@@ -6,6 +6,7 @@ import {
   DefaultHeroOverlayProps
 } from "./plasmic/copy_of_cardless_com/PlasmicHeroOverlay";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
+import {motion} from "framer-motion";
 
 // Your component props start with props for variants and slots you defined
 // in Plasmic, but you can add more here, like event handlers that you can
@@ -23,22 +24,33 @@ import { HTMLElementRefOf } from "@plasmicapp/react-web";
 interface HeroOverlayProps extends DefaultHeroOverlayProps {}
 
 function HeroOverlay_(props: HeroOverlayProps, ref: HTMLElementRefOf<"div">) {
-  // Use PlasmicHeroOverlay to render this component as it was
-  // designed in Plasmic, by activating the appropriate variants,
-  // attaching the appropriate event handlers, etc.  You
-  // can also install whatever React hooks you need here to manage state or
-  // fetch data.
-  //
-  // Props you can pass into PlasmicHeroOverlay are:
-  // 1. Variants you want to activate,
-  // 2. Contents for slots you want to fill,
-  // 3. Overrides for any named node in the component to attach behavior and data,
-  // 4. Props to set on the root node.
-  //
-  // By default, we are just piping all HeroOverlayProps here, but feel free
-  // to do whatever works for you.
-
-  return <PlasmicHeroOverlay root={{ ref }} {...props} />;
+  const animatedChildProps = (key: string) => {
+    return {
+      as: motion.div,
+      props: {
+        key,
+        layout: true,
+      }
+    };
+  }
+  return (
+    <PlasmicHeroOverlay 
+      root={{ 
+        as: motion.div,
+        props: {
+          ref,
+          layout: true,
+        },
+      }}
+      balance={animatedChildProps("balance")}
+      transaction3={animatedChildProps("t3")}
+      transaction2={animatedChildProps("t2")}
+      transaction={animatedChildProps("t1")}
+      rewards={animatedChildProps("rewards")}
+      image2={animatedChildProps("image2")}
+      {...props} 
+    />
+  );
 }
 
 const HeroOverlay = React.forwardRef(HeroOverlay_);
